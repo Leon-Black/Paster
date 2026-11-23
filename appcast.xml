@@ -23,7 +23,7 @@
 - 支持通过系统快速查看生成并缓存文件缩略图，悬停显示文件名。
 - 菜单栏图标左键点击改为直接切换面板显示与收起。
 ]]></description>
-            <enclosure url="https://github.com/Leon-Black/Paster-Releases/releases/download/v0.1.5/Paster-0.1.5.zip" length="3803712" type="application/octet-stream" sparkle:edSignature="L2/E2QAhtqvq2k0yyJcKBxVM/c8sB26Irgkz9J68a4Peww5at7FpjRneyywcoYtYqKCFs83RGTeoFHYAB0lfCg=="/>
+            <enclosure url="https://github.com/Leon-Black/Paster/releases/download/v0.1.5/Paster-0.1.5.zip" length="3803712" type="application/octet-stream" sparkle:edSignature="L2/E2QAhtqvq2k0yyJcKBxVM/c8sB26Irgkz9J68a4Peww5at7FpjRneyywcoYtYqKCFs83RGTeoFHYAB0lfCg=="/>
         </item>
     </channel>
 </rss>
