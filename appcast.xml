@@ -8,6 +8,13 @@
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### 更新内容
+
+- 接入应用内自动更新，完成正式开发者签名与苹果官方公证。
+- 优化多文件卡片图标布局、总容量统计以及系统图标显示。
+- 优化文档缩略图内存占用与图片解码校验。
+- 修复菜单栏调出面板时的激活异常与多文件底栏色彩显示。
+]]></description>
             <enclosure url="https://github.com/Leon-Black/Paster-Releases/releases/download/v0.1.5/Paster-0.1.5.zip" length="3803712" type="application/octet-stream" sparkle:edSignature="L2/E2QAhtqvq2k0yyJcKBxVM/c8sB26Irgkz9J68a4Peww5at7FpjRneyywcoYtYqKCFs83RGTeoFHYAB0lfCg=="/>
         </item>
     </channel>
