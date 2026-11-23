@@ -3,6 +3,19 @@
     <channel>
         <title>Paster</title>
         <item>
+            <title>0.1.6</title>
+            <pubDate>Tue, 24 Nov 2026 00:30:20 +0800</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### 0.1.6（2026-11-24）
+- 新增自定义新版本发现弹窗，支持在应用内直接查看更新说明与安装更新。
+- 优化更新检查错误弹窗文案与独立错误码展示，方便排查网络与更新异常。
+- 将自动更新清单与备用检查源统一迁移至公开仓库 `Leon-Black/Paster`。
+]]></description>
+            <enclosure url="https://github.com/Leon-Black/Paster/releases/download/v0.1.6/Paster-0.1.6.zip" length="3844004" type="application/octet-stream" sparkle:edSignature="4qo1WH858N1+RFVH5e5rxCwEPlWqHl7TMaE3Lom7Lh3Jr7Ca8FNFQ08xQlx4R0FqvXiKrZv0m9/6a3GCphDpBQ=="/>
+        </item>
+        <item>
             <title>0.1.5</title>
             <pubDate>Mon, 23 Nov 2026 22:42:02 +0800</pubDate>
             <sparkle:version>6</sparkle:version>
