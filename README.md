@@ -1,2 +1,24 @@
-# Paster-Releases
-Official release downloads for Paster for macOS. Source development is maintained separately.
+# Paster
+
+一款轻量、原生的 macOS 菜单栏剪贴板历史管理工具。
+
+> 本仓库为 Paster 的公开发布仓库，提供经过开发者签名与苹果官方公证的正式安装包及应用内自动更新服务。
+
+## 下载与安装
+
+1. 前往 [Releases 页面](https://github.com/Leon-Black/Paster/releases/latest) 下载最新版本的 `Paster-x.x.x.zip`。
+2. 双击解压压缩包，将 `Paster.app` 拖入系统的 **应用程序（Applications）** 文件夹。
+3. 首次打开后，Paster 会常驻在屏幕顶部菜单栏；后续可在菜单栏右键或点击 **检查更新…** 获取新版自动更新。
+
+## 系统要求
+
+- macOS 26.0 及以上版本
+- 仅本地存储剪贴板历史，不上传云端
+
+## 权限说明
+
+- **辅助功能权限**：用于在你选择历史卡片后，自动将内容粘贴回当前正在使用的应用。首次粘贴时按系统提示在 **系统设置 → 隐私与安全性 → 辅助功能** 中允许 Paster 即可。
+
+## 问题反馈
+
+如遇到安装、更新或使用问题，欢迎在本仓库的 [Issues](https://github.com/Leon-Black/Paster/issues) 中提交反馈（如遇更新失败弹窗，请一并附上弹窗中的错误码）。
