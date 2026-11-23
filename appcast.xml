@@ -8,12 +8,20 @@
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[### 更新内容
-
+            <description sparkle:format="markdown"><![CDATA[### 0.1.5（2026-11-23）
 - 接入应用内自动更新，完成正式开发者签名与苹果官方公证。
-- 优化多文件卡片图标布局、总容量统计以及系统图标显示。
 - 优化文档缩略图内存占用与图片解码校验。
-- 修复菜单栏调出面板时的激活异常与多文件底栏色彩显示。
+- 自定义更新失败提示与备用更新源自动重试。
+
+### 2026-11-17
+- 多文件卡片支持系统多文件图标与一字排开堆叠布局，并在底部显示总容量。
+- 修复单文件与文件夹卡片误用剪贴板图像的问题，改为显示系统原生图标。
+- 修复多文件卡片底栏色彩与菜单栏调出面板时的激活异常，优化冗余模糊渲染。
+
+### 2026-11-11
+- 恢复顶栏文字与阴影样式，新增清空历史原生确认弹窗与手动检查更新。
+- 支持通过系统快速查看生成并缓存文件缩略图，悬停显示文件名。
+- 菜单栏图标左键点击改为直接切换面板显示与收起。
 ]]></description>
             <enclosure url="https://github.com/Leon-Black/Paster-Releases/releases/download/v0.1.5/Paster-0.1.5.zip" length="3803712" type="application/octet-stream" sparkle:edSignature="L2/E2QAhtqvq2k0yyJcKBxVM/c8sB26Irgkz9J68a4Peww5at7FpjRneyywcoYtYqKCFs83RGTeoFHYAB0lfCg=="/>
         </item>
