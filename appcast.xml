@@ -3,6 +3,21 @@
     <channel>
         <title>Paster</title>
         <item>
+            <title>0.1.7</title>
+            <pubDate>Fri, 27 Nov 2026 01:08:00 +0800</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[### 0.1.7（2026-11-27）
+- 重构面板窗口为原生全尺寸玻璃窗口形态，移除外层透明边距，并微调卡片圆角与顶栏图标间距。
+- 重构搜索栏为固定图标的玻璃胶囊交互，新增独立清空按钮，取消未聚焦搜索框时直接按键唤醒搜索。
+- 新增原文件缺失检测与视觉提示：缺失项自动去色变淡并标注状态；全部缺失时复制或粘贴回退为带说明前缀的路径文本，部分缺失时仅操作仍存在的文件；移动文件后重新复制会自动更新原记录路径。
+- 统一使用系统文件类型图标，跳过音视频缩略图生成；引入后台串行队列预生成缩略图，并为便携式文档（PDF）缩短快速查看超时与增加本地首页渲染回退。
+- 按文本、图片、文件、链接分类细化面板空状态展示，关于窗口新增可点击项目地址与版权声明，并精简菜单栏选项。
+]]></description>
+            <enclosure url="https://github.com/Leon-Black/Paster/releases/download/v0.1.7/Paster-0.1.7.zip" length="3963268" type="application/octet-stream" sparkle:edSignature="PuwZSPWy+YRiT30J6oQCN6wOcQc3w5E/o8weTax7B5mlylsqUnA2JlSfT2kgDxjS2R6ZmKapsndAsQdb7NIvAg=="/>
+        </item>
+        <item>
             <title>0.1.6</title>
             <pubDate>Tue, 24 Nov 2026 00:30:20 +0800</pubDate>
             <sparkle:version>7</sparkle:version>
