@@ -8,13 +8,13 @@
             <sparkle:version>8</sparkle:version>
             <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[### 0.1.7（2026-11-27）
-- 重构面板窗口为原生全尺寸玻璃窗口形态，移除外层透明边距，并微调卡片圆角与顶栏图标间距。
-- 重构搜索栏为固定图标的玻璃胶囊交互，新增独立清空按钮，取消未聚焦搜索框时直接按键唤醒搜索。
-- 新增原文件缺失检测与视觉提示：缺失项自动去色变淡并标注状态；全部缺失时复制或粘贴回退为带说明前缀的路径文本，部分缺失时仅操作仍存在的文件；移动文件后重新复制会自动更新原记录路径。
-- 统一使用系统文件类型图标，跳过音视频缩略图生成；引入后台串行队列预生成缩略图，并为便携式文档（PDF）缩短快速查看超时与增加本地首页渲染回退。
-- 按文本、图片、文件、链接分类细化面板空状态展示，关于窗口新增可点击项目地址与版权声明，并精简菜单栏选项。
-]]></description>
+            <description><![CDATA[<h3>0.1.7（2026-11-27）</h3>
+<ul>
+<li>优化原文件缺失处理：文件移走或删除后卡片会变灰提示，复制或粘贴时自动回退为路径文本（多文件仅粘贴仍存在的文件）；移动文件后重新复制会自动更新路径。</li>
+<li>优化文件预览与图标：统一展示系统文件图标，加快文档与 PDF 缩略图加载，音视频文件直接显示系统图标。</li>
+<li>改进搜索栏与面板外观：升级胶囊式搜索栏并新增清空按钮，微调卡片圆角与窗口阴影，避免未聚焦搜索框时误触打字唤醒搜索。</li>
+<li>细化各分类的空状态提示，并在“关于”窗口新增项目地址链接。</li>
+</ul>]]></description>
             <enclosure url="https://github.com/Leon-Black/Paster/releases/download/v0.1.7/Paster-0.1.7.zip" length="3963268" type="application/octet-stream" sparkle:edSignature="PuwZSPWy+YRiT30J6oQCN6wOcQc3w5E/o8weTax7B5mlylsqUnA2JlSfT2kgDxjS2R6ZmKapsndAsQdb7NIvAg=="/>
         </item>
         <item>
@@ -23,11 +23,12 @@
             <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[### 0.1.6（2026-11-24）
-- 新增自定义新版本发现弹窗，支持在应用内直接查看更新说明与安装更新。
-- 优化更新检查错误弹窗文案与独立错误码展示，方便排查网络与更新异常。
-- 将自动更新清单与备用检查源统一迁移至公开仓库 `Leon-Black/Paster`。
-]]></description>
+            <description><![CDATA[<h3>0.1.6（2026-11-24）</h3>
+<ul>
+<li>新增自定义新版本发现弹窗，支持在应用内直接查看更新说明与安装更新。</li>
+<li>优化更新检查错误弹窗文案与独立错误码展示，方便排查网络与更新异常。</li>
+<li>将自动更新清单与备用检查源统一迁移至公开仓库 <code>Leon-Black/Paster</code>。</li>
+</ul>]]></description>
             <enclosure url="https://github.com/Leon-Black/Paster/releases/download/v0.1.6/Paster-0.1.6.zip" length="3844004" type="application/octet-stream" sparkle:edSignature="4qo1WH858N1+RFVH5e5rxCwEPlWqHl7TMaE3Lom7Lh3Jr7Ca8FNFQ08xQlx4R0FqvXiKrZv0m9/6a3GCphDpBQ=="/>
         </item>
         <item>
@@ -36,21 +37,12 @@
             <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[### 0.1.5（2026-11-23）
-- 接入应用内自动更新，完成正式开发者签名与苹果官方公证。
-- 优化文档缩略图内存占用与图片解码校验。
-- 自定义更新失败提示与备用更新源自动重试。
-
-### 2026-11-17
-- 多文件卡片支持系统多文件图标与一字排开堆叠布局，并在底部显示总容量。
-- 修复单文件与文件夹卡片误用剪贴板图像的问题，改为显示系统原生图标。
-- 修复多文件卡片底栏色彩与菜单栏调出面板时的激活异常，优化冗余模糊渲染。
-
-### 2026-11-11
-- 恢复顶栏文字与阴影样式，新增清空历史原生确认弹窗与手动检查更新。
-- 支持通过系统快速查看生成并缓存文件缩略图，悬停显示文件名。
-- 菜单栏图标左键点击改为直接切换面板显示与收起。
-]]></description>
+            <description><![CDATA[<h3>0.1.5（2026-11-23）</h3>
+<ul>
+<li>接入应用内自动更新，完成正式开发者签名与苹果官方公证。</li>
+<li>优化文档缩略图内存占用与图片解码校验。</li>
+<li>自定义更新失败提示与备用更新源自动重试。</li>
+</ul>]]></description>
             <enclosure url="https://github.com/Leon-Black/Paster/releases/download/v0.1.5/Paster-0.1.5.zip" length="3803712" type="application/octet-stream" sparkle:edSignature="L2/E2QAhtqvq2k0yyJcKBxVM/c8sB26Irgkz9J68a4Peww5at7FpjRneyywcoYtYqKCFs83RGTeoFHYAB0lfCg=="/>
         </item>
     </channel>
